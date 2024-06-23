@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>print_ip: src/canvas.h Source File</title>
+<title>Graphical Editor: src/canvas.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -25,9 +25,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">print_ip<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Graphical Editor<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">SFINAE practice</div>
+   <div id="projectbrief">Model-view-controller practice</div>
   </td>
  </tr>
  </tbody>
@@ -100,24 +100,24 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="../../d6/dc2/definitions_8h.html">definitions.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dc2/classICanvas.html">ICanvas</a></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html#a56d018f045f46228168832a5ec4ff8b9">   17</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc2/classICanvas.html#a56d018f045f46228168832a5ec4ff8b9">dot</a>(<span class="keywordtype">unsigned</span> x, <span class="keywordtype">unsigned</span> y, <span class="keyword">const</span> <a class="code hl_enumeration" href="../../d6/dc2/definitions_8h.html#a1d22b31f4a774a86f1c44b90244e4fcf">draw_operation</a> pix) = 0;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html#ad769583cce96a0b975dbc03ff8f13bf6">   18</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc2/classICanvas.html#ad769583cce96a0b975dbc03ff8f13bf6">render</a>() = 0;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html#a3bd428a910f45ed0fd9f799dfd7b8c10">   19</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc2/classICanvas.html#a3bd428a910f45ed0fd9f799dfd7b8c10">clear</a>() = 0;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dc2/classICanvas.html">ICanvas</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html#a56d018f045f46228168832a5ec4ff8b9">   16</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc2/classICanvas.html#a56d018f045f46228168832a5ec4ff8b9">dot</a>(<span class="keywordtype">unsigned</span> x, <span class="keywordtype">unsigned</span> y, <span class="keyword">const</span> <a class="code hl_enumeration" href="../../d6/dc2/definitions_8h.html#a1d22b31f4a774a86f1c44b90244e4fcf">draw_operation</a> pix) = 0;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html#ad769583cce96a0b975dbc03ff8f13bf6">   17</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc2/classICanvas.html#ad769583cce96a0b975dbc03ff8f13bf6">render</a>() = 0;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../df/dc2/classICanvas.html#a3bd428a910f45ed0fd9f799dfd7b8c10">   18</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc2/classICanvas.html#a3bd428a910f45ed0fd9f799dfd7b8c10">clear</a>() = 0;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
 </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d4/dcf/canvas_8h.html#a638009b9d9d4e3417ddb2209cf3760e4">   21</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d4/dcf/canvas_8h.html#a638009b9d9d4e3417ddb2209cf3760e4">sp_ICanvas_t</a> = std::shared_ptr&lt;ICanvas&gt;;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d4/dcf/canvas_8h.html#a4e404551abe3536b20ef5d724b9c60c9">   22</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d4/dcf/canvas_8h.html#a4e404551abe3536b20ef5d724b9c60c9">canvas_list_t</a> = std::list&lt;sp_ICanvas_t&gt;;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d4/dcf/canvas_8h.html#af7c0794d2c1458fab65e1397e1575920">   23</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d4/dcf/canvas_8h.html#af7c0794d2c1458fab65e1397e1575920">i_canvas_list_t</a> = canvas_list_t::iterator;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="acanvas_8h_html_a4e404551abe3536b20ef5d724b9c60c9"><div class="ttname"><a href="../../d4/dcf/canvas_8h.html#a4e404551abe3536b20ef5d724b9c60c9">canvas_list_t</a></div><div class="ttdeci">std::list&lt; sp_ICanvas_t &gt; canvas_list_t</div><div class="ttdef"><b>Definition</b> canvas.h:22</div></div>
-<div class="ttc" id="acanvas_8h_html_a638009b9d9d4e3417ddb2209cf3760e4"><div class="ttname"><a href="../../d4/dcf/canvas_8h.html#a638009b9d9d4e3417ddb2209cf3760e4">sp_ICanvas_t</a></div><div class="ttdeci">std::shared_ptr&lt; ICanvas &gt; sp_ICanvas_t</div><div class="ttdef"><b>Definition</b> canvas.h:21</div></div>
-<div class="ttc" id="acanvas_8h_html_af7c0794d2c1458fab65e1397e1575920"><div class="ttname"><a href="../../d4/dcf/canvas_8h.html#af7c0794d2c1458fab65e1397e1575920">i_canvas_list_t</a></div><div class="ttdeci">canvas_list_t::iterator i_canvas_list_t</div><div class="ttdef"><b>Definition</b> canvas.h:23</div></div>
-<div class="ttc" id="aclassICanvas_html"><div class="ttname"><a href="../../df/dc2/classICanvas.html">ICanvas</a></div><div class="ttdef"><b>Definition</b> canvas.h:15</div></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d4/dcf/canvas_8h.html#a638009b9d9d4e3417ddb2209cf3760e4">   20</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d4/dcf/canvas_8h.html#a638009b9d9d4e3417ddb2209cf3760e4">sp_ICanvas_t</a> = std::shared_ptr&lt;ICanvas&gt;;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d4/dcf/canvas_8h.html#a4e404551abe3536b20ef5d724b9c60c9">   21</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d4/dcf/canvas_8h.html#a4e404551abe3536b20ef5d724b9c60c9">canvas_list_t</a> = std::list&lt;sp_ICanvas_t&gt;;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d4/dcf/canvas_8h.html#af7c0794d2c1458fab65e1397e1575920">   22</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d4/dcf/canvas_8h.html#af7c0794d2c1458fab65e1397e1575920">i_canvas_list_t</a> = canvas_list_t::iterator;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acanvas_8h_html_a4e404551abe3536b20ef5d724b9c60c9"><div class="ttname"><a href="../../d4/dcf/canvas_8h.html#a4e404551abe3536b20ef5d724b9c60c9">canvas_list_t</a></div><div class="ttdeci">std::list&lt; sp_ICanvas_t &gt; canvas_list_t</div><div class="ttdef"><b>Definition</b> canvas.h:21</div></div>
+<div class="ttc" id="acanvas_8h_html_a638009b9d9d4e3417ddb2209cf3760e4"><div class="ttname"><a href="../../d4/dcf/canvas_8h.html#a638009b9d9d4e3417ddb2209cf3760e4">sp_ICanvas_t</a></div><div class="ttdeci">std::shared_ptr&lt; ICanvas &gt; sp_ICanvas_t</div><div class="ttdef"><b>Definition</b> canvas.h:20</div></div>
+<div class="ttc" id="acanvas_8h_html_af7c0794d2c1458fab65e1397e1575920"><div class="ttname"><a href="../../d4/dcf/canvas_8h.html#af7c0794d2c1458fab65e1397e1575920">i_canvas_list_t</a></div><div class="ttdeci">canvas_list_t::iterator i_canvas_list_t</div><div class="ttdef"><b>Definition</b> canvas.h:22</div></div>
+<div class="ttc" id="aclassICanvas_html"><div class="ttname"><a href="../../df/dc2/classICanvas.html">ICanvas</a></div><div class="ttdef"><b>Definition</b> canvas.h:14</div></div>
 <div class="ttc" id="aclassICanvas_html_a3bd428a910f45ed0fd9f799dfd7b8c10"><div class="ttname"><a href="../../df/dc2/classICanvas.html#a3bd428a910f45ed0fd9f799dfd7b8c10">ICanvas::clear</a></div><div class="ttdeci">virtual void clear()=0</div></div>
 <div class="ttc" id="aclassICanvas_html_a56d018f045f46228168832a5ec4ff8b9"><div class="ttname"><a href="../../df/dc2/classICanvas.html#a56d018f045f46228168832a5ec4ff8b9">ICanvas::dot</a></div><div class="ttdeci">virtual void dot(unsigned x, unsigned y, const draw_operation pix)=0</div></div>
 <div class="ttc" id="aclassICanvas_html_ad769583cce96a0b975dbc03ff8f13bf6"><div class="ttname"><a href="../../df/dc2/classICanvas.html#ad769583cce96a0b975dbc03ff8f13bf6">ICanvas::render</a></div><div class="ttdeci">virtual void render()=0</div></div>
