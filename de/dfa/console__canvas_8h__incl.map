@@ -1,0 +1,14 @@
+<map id="src/console_canvas.h" name="src/console_canvas.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,153,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,153,85,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,33,52,54,39,80,37,109,43,138,38,139,31,110,34,78,48,51,65,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="49,79,109,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="82,31,82,63,76,63,76,31"/>
+<area shape="rect" id="Node000004" href="$d4/dcf/canvas_8h.html" title=" " alt="" coords="133,79,206,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="96,29,144,67,141,72,93,34"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="151,107,85,147,83,142,148,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="129,153,168,178"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="169,106,159,138,154,137,164,104"/>
+<area shape="rect" id="Node000006" href="$d6/dc2/definitions_8h.html" title=" " alt="" coords="192,153,281,178"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="183,103,217,139,213,143,179,107"/>
+</map>

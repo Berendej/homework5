@@ -1,0 +1,22 @@
+<map id="src/canvas.h" name="src/canvas.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="302,5,398,31"/>
+<area shape="rect" id="Node000002" href="$d9/db9/console__canvas_8h.html" title=" " alt="" coords="168,153,316,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,45,253,154,249,151,330,42"/>
+<area shape="rect" id="Node000006" href="$d8/d68/graphdoc_8h.html" title=" " alt="" coords="340,153,446,178"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="360,45,392,151,387,153,355,47"/>
+<area shape="rect" id="Node000008" href="$d1/d39/shapes_8h.html" title=" " alt="" coords="388,79,483,105"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="378,39,423,77,419,81,374,43"/>
+<area shape="rect" id="Node000003" href="$d4/d44/console__canvas_8cpp.html" title=" " alt="" coords="5,226,167,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,188,114,228,111,223,201,183"/>
+<area shape="rect" id="Node000004" href="$d1/d47/controller_8cpp.html" title=" " alt="" coords="191,226,312,252"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="248,193,252,226,247,226,243,194"/>
+<area shape="rect" id="Node000005" href="$d2/d68/demo_8cpp.html" title=" " alt="" coords="335,226,434,252"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="281,183,362,223,359,228,279,188"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="356,188,277,228,274,223,354,183"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="392,194,389,226,383,226,387,193"/>
+<area shape="rect" id="Node000007" href="$da/dfe/graphdoc_8cpp.html" title=" " alt="" coords="458,226,578,252"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="428,184,498,223,495,228,426,189"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="423,119,402,154,398,151,418,116"/>
+<area shape="rect" id="Node000009" href="$d5/dcc/shapes_8cpp.html" title=" " alt="" coords="470,153,579,178"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="464,112,511,150,508,154,460,116"/>
+</map>
