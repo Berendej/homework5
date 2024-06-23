@@ -1,5 +1,5 @@
 cmake_minimum_required( VERSION 3.10 )
-project( graphedit VERSION 0.1.1 )
+project( homework5 VERSION 0.1.1 )
 add_executable( graphedit graphedit.cpp shapes.cpp graphdoc.cpp console_canvas.cpp controller.cpp )
 
 # package part which enales
