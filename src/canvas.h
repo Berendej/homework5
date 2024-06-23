@@ -8,7 +8,6 @@
 
 /**
  * /brief ICanvas serves as a VIEW in  model-view-controller paradigm
- *
  * 
  */
 class ICanvas
